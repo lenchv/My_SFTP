@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\HExceptions">
+      <UniqueIdentifier>{a730fe2b-43eb-4aa1-b11e-e5770053f52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Exceptions">
+      <UniqueIdentifier>{8751a503-c9c1-442a-b634-1a224e4574da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\HExceptions\HServerExceptions">
+      <UniqueIdentifier>{9e39ae72-4a2d-4c73-81d1-94f7e4b7b2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Exceptions\ServerExceptions">
+      <UniqueIdentifier>{6636a312-4779-43d2-8788-4bfd2fc89d26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\TrueConfTask2\Main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\MyTCPServer.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\MyTCP.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\AcceptException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\BindException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\CloseSocketException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\ConnectException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\ListenException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\MyTCPException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\RecieveException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\SendException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\SocketException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\WSACleanupException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\WSAStartupException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\InetPtonException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\HostByNameException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\SocketOptionException.cpp">
+      <Filter>Файлы исходного кода\Exceptions\ServerExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TrueConfTask2\MyFTPServer.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\TrueConfTask2\AcceptException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\BindException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\CloseSocketException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\ConnectException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\ListenException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\MyTCPException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\RecieveException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\SendException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\SocketException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\WSACleanupException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\WSAStartupException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\MyTCP.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\MyTCPClient.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\MyTCPServer.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\HostByNameException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\InetPtonException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\SocketOptionException.h">
+      <Filter>Заголовочные файлы\HExceptions\HServerExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TrueConfTask2\MyFTPServer.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

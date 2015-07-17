@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Exceptions">
+      <UniqueIdentifier>{2b2f9f39-abc8-4202-8bd8-921d84f06eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\HExceptions">
+      <UniqueIdentifier>{f1db28bb-6e6b-4127-b1f6-842e2b080728}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyTCP.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WSAStartupException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTCPException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="RecieveException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="SendException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseSocketException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="WSACleanupException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTCPServer.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTCPClient.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceptException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="BindException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ListenException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InetPtonException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="HostByNameException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketOptionException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFTPClient.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFTPException.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFTPServer.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFTP.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="FTPFileNameException.h">
+      <Filter>Заголовочные файлы\HExceptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyTCP.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTCPException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="RecieveException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="WSAStartupException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="SendException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseSocketException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="WSACleanupException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTCPServer.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTCPClient.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="ListenException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="BindException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="InetPtonException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="HostByNameException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketOptionException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFTPClient.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFTPException.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFTPServer.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFTP.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="FTPFileNameException.cpp">
+      <Filter>Файлы исходного кода\Exceptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

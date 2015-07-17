@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A054930F-45D8-4D77-9B22-FD1E3C2BF6F4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Server</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\TrueConfTask2\AcceptException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\BindException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\CloseSocketException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\ConnectException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\HostByNameException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\InetPtonException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\ListenException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\Main.cpp" />
+    <ClCompile Include="..\TrueConfTask2\MyFTPServer.cpp" />
+    <ClCompile Include="..\TrueConfTask2\MyTCP.cpp" />
+    <ClCompile Include="..\TrueConfTask2\MyTCPException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\MyTCPServer.cpp" />
+    <ClCompile Include="..\TrueConfTask2\RecieveException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\SendException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\SocketException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\SocketOptionException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\WSACleanupException.cpp" />
+    <ClCompile Include="..\TrueConfTask2\WSAStartupException.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\TrueConfTask2\AcceptException.h" />
+    <ClInclude Include="..\TrueConfTask2\BindException.h" />
+    <ClInclude Include="..\TrueConfTask2\CloseSocketException.h" />
+    <ClInclude Include="..\TrueConfTask2\ConnectException.h" />
+    <ClInclude Include="..\TrueConfTask2\HostByNameException.h" />
+    <ClInclude Include="..\TrueConfTask2\InetPtonException.h" />
+    <ClInclude Include="..\TrueConfTask2\ListenException.h" />
+    <ClInclude Include="..\TrueConfTask2\MyFTPServer.h" />
+    <ClInclude Include="..\TrueConfTask2\MyTCP.h" />
+    <ClInclude Include="..\TrueConfTask2\MyTCPClient.h" />
+    <ClInclude Include="..\TrueConfTask2\MyTCPException.h" />
+    <ClInclude Include="..\TrueConfTask2\MyTCPServer.h" />
+    <ClInclude Include="..\TrueConfTask2\RecieveException.h" />
+    <ClInclude Include="..\TrueConfTask2\SendException.h" />
+    <ClInclude Include="..\TrueConfTask2\SocketException.h" />
+    <ClInclude Include="..\TrueConfTask2\SocketOptionException.h" />
+    <ClInclude Include="..\TrueConfTask2\WSACleanupException.h" />
+    <ClInclude Include="..\TrueConfTask2\WSAStartupException.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
